@@ -128,8 +128,11 @@ main {
   align-items: center;
   padding: 0;
 }
+.media-item path:hover {
+  fill: var(--text-tertiary);
+}
 
-/* main start - Dashboard*/
+/*------------------------------------------------------------------------------------- main start - Dashboard -----------------------------------------------------------------------*/
 
 .heading {
   /* padding: 0.2rem 0 0.2rem 0; */
@@ -214,6 +217,16 @@ main {
 hr {
   padding: 1px 0;
   border: none;
+}
+
+/* transition for Dashboard hr */
+.trans--grow {
+  width: 0;
+  -webkit-transition: width 1.5s ease-out; /* For Safari 3.1 to 6.0 */
+  transition: width 1.5s ease-out;
+}
+.grow {
+  width: 100%;
 }
 
 .upperline {
@@ -383,6 +396,7 @@ hr {
   align-items: center;
   /* margin: 0.5rem 0; */
   /* justify-content: space-between; */
+  flex-direction: row;
 }
 
 .contact-details {
@@ -495,6 +509,7 @@ hr {
   font-size: 0.3rem;
   font-weight: 800;
   font-style: normal;
+  cursor: pointer;
 }
 
 /* ------------------------------------------ Responsive 1300px max -------------------------------------------*/
@@ -585,7 +600,7 @@ hr {
     opacity: 1;
   }
 
-  /*Dashboard*/
+  /*Skills*/
 
   .page-content-wrapper {
     flex-direction: column;
@@ -593,5 +608,15 @@ hr {
   .skills-wrapper {
     margin-top: 0;
     margin-bottom: 1rem;
+  }
+
+  /*Contact*/
+
+  .contact-details-wrapper {
+    flex-direction: column-reverse;
+  }
+  .logos ul {
+    display: flex;
+    flex-direction: row;
   }
 }
