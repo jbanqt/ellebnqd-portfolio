@@ -32,7 +32,7 @@ export default class extends AbstractView {
                 web design and development. </br>
             </div>
             <div class="contact-details-wrapper">
-                <div class="contact-details logos">
+                <div class="contact-details">
                     <ul class="contact-items">
                         <li class="contact-item-logo">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24">
@@ -57,7 +57,7 @@ export default class extends AbstractView {
                             jbanqt@gmail.com
                         </li>
                         <li class="contact-item-desc">
-                            elleBnqd
+                            ellBnqd
                         </li>
                         <li class="contact-item-desc">
                             Pasig City, PH
@@ -70,7 +70,7 @@ export default class extends AbstractView {
 
 
         <div class="page-content">
-            <form action="https://formsubmit.co/e96df4a92ee5c5d54ce2d67e48fcb173" method="POST">
+            <form action="https://formsubmit.co/jbanqt@gmail.com" method="POST">
                 <input type="hidden" name="_captcha" value="false">
                 <div class="contact-form">
                     <ul class="form-group">
