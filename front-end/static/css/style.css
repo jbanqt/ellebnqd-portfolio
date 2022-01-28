@@ -381,7 +381,7 @@ hr {
 /*-------------------------------------------------------------- Contact Me Page ---------------------------------------------------------------*/
 
 .contact-title {
-  font-weight: 800;
+  font-weight: 850;
   font-style: italic;
   color: var(--text-secondary);
   padding: 0.5rem 0;
@@ -513,6 +513,89 @@ hr {
   cursor: pointer;
 }
 
+/*-------------------------------------------------------------- About Page ---------------------------------------------------------------*/
+
+.about-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.about-heading .about-content {
+  text-align: center;
+}
+
+.about-heading .about-content .page-content-title {
+  margin-left: 1rem;
+  font-style: italic;
+  font-weight: 850;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.marquee {
+  background-color: transparent;
+  border: 1px solid var(--text-tertiary);
+  border-left: transparent;
+  border-right: transparent;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0.5rem;
+  font-weight: 800;
+  font-style: italic;
+  height: 1rem;
+  padding: 0.25rem;
+  /* position: relative; */
+  /* left: 100%; */
+  animation: marquee 15s linear infinite;
+}
+/* .marquee span {
+  display: inline-block;
+  font-size: 0.5rem;
+  font-weight: 800;
+  font-style: italic;
+  position: relative;
+  left: 100%;
+  animation: marquee 10s linear infinite;
+} */
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    text-indent: 100%;
+  }
+  100% {
+    text-indent: -100%;
+  }
+}
+
+.dot {
+  height: 0.25rem;
+  width: 0.25rem;
+  background-color: var(--text-secondary);
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+.about-subtitle {
+  /* margin-top: 1rem; */
+}
+
+.about-desc {
+  font-size: 0.35rem;
+  text-align: center;
+  padding: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
 /* ------------------------------------------ Responsive 1300px max -------------------------------------------*/
 
 @media screen and (max-width: 1300px) {
@@ -619,5 +702,10 @@ hr {
   .logos ul {
     display: flex;
     flex-direction: row;
+  }
+
+  /*About*/
+  .about-heading {
+    flex-direction: column;
   }
 }

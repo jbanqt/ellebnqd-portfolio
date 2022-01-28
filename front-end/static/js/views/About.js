@@ -8,31 +8,64 @@ export default class extends AbstractView {
 
   async getHtml() {
     return `
-      <hr class="upperline"/>
-      <div class="heading">
-        <ul class="heading-head">
-          <li class="heading-item">Hello.</li>
-          <li class="heading-item">Hi.</li>
-        </ul>
+      
+      <div class="page-header">
+      <div class="page-header-sections">
+        <div class="page-header-items">
+            <hr class="trans--grow upperline"/>
+        </div>
+        <div class="page-header-items pagetitleup">
+            ABOUT
+        </div>
       </div>
-      <div class="introduction">
-        <p class="intro-heading">
-          I'm Jocelle, <br />
-          I am an aspiring front-end <br /><span class="designer"
-          >designer</span
-          >
-          & <span class="developer">developer</span>.
-        </p>
+      </div>
 
-        <p class="intro-subtitle">
-          Let me assist you with your upcoming endeavour
-        </p>
+      
+        <div class="about-heading">
+            <div class="about-content">
+                LOGO
+            </div>
+            <div class="about-content">
+                <div class="page-content-title">
+                HI I'M JOCELLE BANIQUED.
+                </div>
+            </div>
+        </div>
+
+        <div class="about-subtitle">
+          <div class="marquee">
+              <span class="dot"></span>
+              LET ME TELL YOU SOMETHING ABOUT MYSELF  
+              <span class="dot"></span>
+          </div>
+
+          <div class="about-desc">
+          I'm a fourth-year college student at the Technological Institute of the Philippines, </br>
+          where I'm pursuing a Bachelor of Science in Information Technology. </br>
+          Translating plain site design to HTML code is one of my favorite things. </br>
+          ----- </br>
+          I am currently developing my understanding of web programming </br>
+          and am always practicing in the hopes of one day becoming a front-end web developer.
+          </div>
+        </div>
+     
+
+
+
+      <div class="page-header">
+      <div class="page-header-sections">
+        <div class="page-header-items pagetitledown">
+            ABOUT
+        </div>
+        <div class="page-header-items">
+            <hr class="trans--grow lowerline"/>
+        </div>
       </div>
-      <div class="contact-wrapper">
-        <div class="contact-button"><p>GET IN TOUCH</p></div>
       </div>
-      <hr class="lowerline" />
+      
       `;
 
   }
 }
+
+
