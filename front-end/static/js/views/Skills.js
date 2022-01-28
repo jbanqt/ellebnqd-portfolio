@@ -10,11 +10,11 @@ export default class extends AbstractView {
         return `
       
       <div class="page-header">
-      <div class="pageheader-sections">
-        <div class="pageheader-items">
+      <div class="page-header-sections">
+        <div class="page-header-items">
             <hr class="trans--grow upperline"/>
         </div>
-        <div class="pageheader-items pagetitleup">
+        <div class="page-header-items pagetitleup">
             SKILLS
         </div>
       </div>
