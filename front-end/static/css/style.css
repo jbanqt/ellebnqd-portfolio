@@ -116,6 +116,7 @@ main {
 .nav-border:hover {
   color: var(--text-primary);
   background-color: var(--bg-primary);
+  filter: drop-shadow(0 0.075rem 0.05rem var(--text-secondary));
 }
 .media {
   padding: 0 2rem;
@@ -210,7 +211,15 @@ main {
   align-items: center;
   display: flex;
   justify-content: center;
+  filter: drop-shadow(0 0.075rem 0.05rem var(--text-tertiary));
 }
+
+.contact-wrapper .contact-button:hover {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  filter: drop-shadow(0 0.075rem 0.05rem var(--text-secondary));
+}
+
 .nLine {
   display: none;
 }
@@ -361,7 +370,7 @@ hr {
   align-items: center;
   justify-content: space-between;
   padding-inline-start: 0;
-  padding: 0 0.5rem;
+  padding: 0 0.4rem;
   margin: 0.6rem 0;
 }
 
@@ -376,6 +385,12 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+  filter: drop-shadow(0 0.075rem 0.05rem var(--text-secondary));
+}
+
+.tools svg {
+  height: 1.04rem;
+  width: 1rem;
 }
 
 /*-------------------------------------------------------------- Contact Me Page ---------------------------------------------------------------*/
@@ -511,6 +526,13 @@ hr {
   font-weight: 800;
   font-style: normal;
   cursor: pointer;
+  filter: drop-shadow(0 0.075rem 0.05rem var(--text-tertiary));
+}
+
+.form-item button:hover {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  filter: drop-shadow(0 0.075rem 0.05rem var(--text-secondary));
 }
 
 /*-------------------------------------------------------------- About Page ---------------------------------------------------------------*/
@@ -707,5 +729,17 @@ hr {
   /*About*/
   .about-heading {
     flex-direction: column;
+  }
+}
+
+/*------------------ Responsive Max: 600px ---------------------*/
+
+@media screen and (max-width: 600px) {
+  :root {
+    font-size: 35px;
+  }
+
+  .lineBreak {
+    display: none;
   }
 }

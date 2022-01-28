@@ -29,8 +29,11 @@ export default class extends AbstractView {
       <div class="intro-subtitle">
           Let me assist you with your upcoming endeavour.
         </div>
-        <div class="contact-button">
-        <a href="/contact">GET IN TOUCH</a></div>
+        <a href="/contact">
+          <div class="contact-button">
+            GET IN TOUCH
+          </div>
+        </a>  
       </div>
       <hr class="trans--grow lowerline" />
       `;

@@ -27,9 +27,9 @@ export default class extends AbstractView {
                 LET'S WORK TOGETHER!
             </div>
             <div class="contact-desc">
-                I'm looking for something that will </br>
-                allow me to improve my skills in front-end  </br>
-                web design and development. </br>
+                I'm looking for something that will <br class="lineBreak" />
+                allow me to improve my skills in front-end  <br class="lineBreak" />
+                web design and development. <br class="lineBreak" />
             </div>
             <div class="contact-details-wrapper">
                 <div class="contact-details logos">
