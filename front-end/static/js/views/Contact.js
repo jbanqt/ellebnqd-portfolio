@@ -54,7 +54,7 @@ export default class extends AbstractView {
                 <div class="contact-details information">
                     <ul class="contact-items ">
                         <li class="contact-item-desc">
-                            jbanqt@gmail.com
+                            jbnqd@gmail.com
                         </li>
                         <li class="contact-item-desc">
                             elleBnqd

@@ -24,10 +24,10 @@ export default class extends AbstractView {
       <div class="page-content-wrapper">
         <div class="page-content">
             <div class="work-title">
-                HERE ARE SOME OF MY PROJECTS
+                HERE ARE SOME <br class="lineBreak" /> OF MY PROJECTS
             </div>
             <div class="work-subtitle">
-                Visit my <a href="https://www.linkedin.com/in/Elle-Baniqued">LinkedIn profile</a> or just <a href="/contact" data-link>contact me</a> <br class=""lineBreak />
+                Visit my <a href="https://www.linkedin.com/in/Elle-Baniqued">LinkedIn profile</a> or just <a href="/contact" data-link>contact me</a> <br class="lineBreak" />
                 if you're interested in working together.
             </div>
         </div>
@@ -41,7 +41,7 @@ export default class extends AbstractView {
                     <div class="work-item work-desc">
                         <a href="https://studiojilbi.com/"><div class="item-hover">  &nbsp SEE PROJECT &nbsp </div></a>
                         <div class="item-title">
-                            STUDIO-JILB WEBSITE
+                            STUDIO JIL-B WEBSITE
                         </div>
                         <div class="item-desc">
                             FRONT-END DEVELOPMENT | FREELANCE
