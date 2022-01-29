@@ -8,6 +8,7 @@ const host = '0.0.0.0';
 
 
 app.use('/static', express.static(path.resolve(__dirname, 'front-end', 'static')));
+app.use(express.static('images'));
 
 app.get("/*", (req, res) => {
     res.sendFile(path.resolve(__dirname, 'front-end', 'index.html'));
