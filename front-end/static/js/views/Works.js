@@ -67,7 +67,7 @@ export default class extends AbstractView {
 
                 <div class="work-content">
                     <div class="work-item work-desc">
-                        <a href=""><div class="item-hover">  &nbsp SEE PROJECT &nbsp </div></a>
+                        <a href="https://xd.adobe.com/view/85f889c4-f61f-4a92-a270-a48c20fc2cf5-d0ab/?fullscreen"><div class="item-hover">  &nbsp SEE PROJECT &nbsp </div></a>
                         <div class="item-title">
                             SCOOPDECK WEBSITE
                         </div>
@@ -80,15 +80,15 @@ export default class extends AbstractView {
                 </div>
 
                 <div class="work-content">
-                    <div class="work-item work-img" style="background-image: url(/static/images/the-everyday.png);">
+                    <div class="work-item work-img" style="background-image: url(/static/images/illustration-hero.svg);">
                     </div>
                     <div class="work-item work-desc">
-                        <a href="https://www.theeveryday.ph/"><div class="item-hover"> &nbsp SEE PROJECT &nbsp</div></a>
+                        <a href="https://order-summary-component-react.herokuapp.com/"><div class="item-hover"> &nbsp SEE PROJECT &nbsp</div></a>
                         <div class="item-title">
-                            THE EVERYDAY WEBSITE
+                            ORDER SUMMARY
                         </div>
                         <div class="item-desc">
-                            WEBSITE EDITING | FREELANCE
+                            FRONT-END CHALLENGE | PERSONAL PROJECT
                         </div>  
                     </div>
                 </div>
