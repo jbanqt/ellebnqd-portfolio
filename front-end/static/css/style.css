@@ -920,6 +920,10 @@ hr {
     font-size: 35px;
   }
 
+  main {
+    padding: 0.5rem;
+  }
+
   .lineBreak {
     display: none;
   }
