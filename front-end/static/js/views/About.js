@@ -23,7 +23,7 @@ export default class extends AbstractView {
       
         <div class="about-heading">
             <div class="about-content">
-                LOGO
+              <img src="/static/images/bnqd-03.png" alt="logo"/>
             </div>
             <div class="about-content">
                 <div class="page-content-title">
