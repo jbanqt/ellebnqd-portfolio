@@ -24,7 +24,7 @@ export default class extends AbstractView {
         <div class="page-content-wrapper">
             <div class="page-content">
                 <div class="skill-title">
-                    <span class="design-text">Design</span> <span class="plustext">+</span></br><span class="devtext">DEVELOPMENT</span>
+                    <span class="design-text">Design</span> <span class="plustext">+</span> <br class="lineBreak" /><span class="devtext">DEVELOPMENT</span>
                 </div>
 
                 <div class="skill-desc">

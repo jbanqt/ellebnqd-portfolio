@@ -947,6 +947,13 @@ hr {
   .page-content-wrapper {
     text-align: center;
   }
+
+  .information {
+    padding: 0.5rem 0 0 0;
+  }
+  .form-item {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1800px) {
